@@ -1,0 +1,158 @@
+						.cover-img {
+                                width: 100%;
+                            }
+							   *{
+           		box-sizing:border-box;
+            }
+            body{
+				background-color: #e7e6f7;
+			}
+             .section1 {
+             	background-image: url("images/BUM.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+
+           }
+
+			#notice-board{
+				color:white;
+				font-size:30px;
+				text-align: center;
+			}
+                          
+							.jumbotron.mt-4.mr-5.validity {
+   								OPACITY: 0.8;
+    							background-color: #151a6b;
+    							color: white;
+							}
+       
+
+
+                            .css-typing p {
+                                margin-left: auto;
+                                margin-right: auto;
+                                border-right: .15em solid orange;
+                                font-family: "Courier";
+                                font-size: 25px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                            }
+
+                            .css-typing p:nth-child(1) {
+                                width: 32.8em;
+                                color: white;
+                                background-color: #151a6b;
+                                OPACITY: 0.8;
+                                padding: 5px;
+                                -webkit-animation: type 3s steps(50, end);
+                                animation: type 3s steps(50, end);
+                                -webkit-animation-fill-mode: forwards;
+                                animation-fill-mode: forwards;
+                            }
+
+                            .css-typing p:nth-child(2) {
+                                width: 13.7em;
+                                opacity: 0;
+                                color: green;
+                                background-color: #151a6b;
+                                padding: 5px;
+                                -webkit-animation: type2 2s steps(40, end);
+                                animation: type2 2s steps(40, end);
+                                -webkit-animation-delay: 2s;
+                                animation-delay: 3s;
+                                -webkit-animation-fill-mode: forwards;
+                                animation-fill-mode: forwards;
+                            }
+
+
+                            @keyframes type {
+                                0% {
+                                    width: 0;
+                                }
+                                99.9% {
+                                    border-right: .15em solid orange;
+                                }
+                                100% {
+                                    border: none;
+                                }
+                            }
+
+                            @-webkit-keyframes type {
+                                0% {
+                                    width: 0;
+                                }
+                                99.9% {
+                                    border-right: .15em solid orange;
+                                }
+                                100% {
+                                    border: none;
+                                }
+                            }
+
+                            @keyframes type2 {
+                                0% {
+                                    width: 0;
+                                }
+                                1% {
+                                    opacity: 1;
+                                }
+                                99.9% {
+                                    border-right: .15em solid orange;
+                                }
+                                100% {
+                                    opacity: 1;
+                                    border: none;
+                                }
+                            }
+
+                            @-webkit-keyframes type2 {
+                                0% {
+                                    width: 0;
+                                }
+                                1% {
+                                    opacity: 1;
+                                }
+                                99.9% {
+                                    border-right: .15em solid orange;
+                                }
+                                100% {
+                                    opacity: 1;
+                                    border: none;
+                                }
+                            }
+
+                            @keyframes type3 {
+                                0% {
+                                    width: 0;
+                                }
+                                1% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                            }
+
+                            @-webkit-keyframes type3 {
+                                0% {
+                                    width: 0;
+                                }
+                                1% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                            }
+
+                            @keyframes blink {
+                                50% {
+                                    border-color: transparent;
+                                }
+                            }
+
+                            @-webkit-keyframes blink {
+                                50% {
+                                    border-color: tranparent;
+                                }
+                            }
